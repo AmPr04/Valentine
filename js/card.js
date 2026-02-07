@@ -1,5 +1,3 @@
-const { image } = require("framer-motion/client");
-
 /* Floating hearts generator */
 function createHeart() {
   const heart = document.createElement("div");
@@ -44,3 +42,4 @@ yesBtn.addEventListener("click", () => {
   noBtn.style.display = "none";
 
 });
+
