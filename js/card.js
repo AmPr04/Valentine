@@ -40,7 +40,7 @@ noBtn.addEventListener("click", () => {
 
 yesBtn.addEventListener("click", () => {
   result.innerHTML = "YAY!! I knew you'd come around 💘";
-  result.innerHTML += image("https://media.giphy.com/media/3o6Zt481isNVuQI1lK/giphy.gif");
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
+
 });
