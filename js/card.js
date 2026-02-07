@@ -40,6 +40,4 @@ yesBtn.addEventListener("click", () => {
   result.innerHTML = "YAY!! I knew you'd come around 💘";
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
-
 });
-
